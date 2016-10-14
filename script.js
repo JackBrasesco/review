@@ -4,9 +4,10 @@ $("#click").click(function() {
 
 
 var bran = $("#nameinput")
-
-bran.keydown(function(enter) {
-  if (enter.keycode == 13) {
+console.log("hello")
+bran.keydown(function(enter) 
+  if (enter.keyCode == 13) {
+    console.log("hi")
 if (bran == "bran") {
   $("#branoutput").css({display: "inline"})
 }
