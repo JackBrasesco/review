@@ -13,3 +13,5 @@ bran.keydown(function(enter) {
       }
   }
 })
+
+var list = ["this","is","a","list"]
