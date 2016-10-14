@@ -7,9 +7,9 @@ var bran = $("#nameinput")
 
 bran.keydown(function(enter) {
   if (enter.keyCode == 13) {
-    console.log(bran)
-      if (bran == "bran") {
+      if (bran.val() == "bran") {
           $("#branoutput").css({display: "inline"})
+          bran.val("")
       }
   }
 })
