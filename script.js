@@ -5,7 +5,7 @@ $("#click").click(function() {
 
 var bran = $("#nameinput")
 
-
+bran.keydown(function(enter) {
 if (bran == "bran") {
   $("#branoutput").css({display: "inline"})
 }
