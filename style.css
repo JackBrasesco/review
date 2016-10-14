@@ -1,0 +1,18 @@
+body {
+  background-color: cornsilk
+}
+
+#clicked {
+  display: none;
+}
+
+#click {
+  display: inline;
+}
+#nameinput {
+  display;
+}
+
+#branoutput {
+  display: none;
+}
