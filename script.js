@@ -16,7 +16,7 @@ bran.keydown(function(enter) {
 
 var list = ["this","is","a","list"]
 
-function callme(callme) {
+function callme() {
   callme()
-  co
+  console.log("hi")
 }
