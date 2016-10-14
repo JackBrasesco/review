@@ -12,3 +12,6 @@ body {
 #nameinput {
   display: ;
 }
+#branoutput {
+  display: none;
+}
