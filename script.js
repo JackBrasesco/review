@@ -6,5 +6,5 @@ $("#click").click(function() {
 var bran = $("#nameinput")
 
 if (bran = "bran") {
-  $
+  $("#branoutput").css({display: "inline"})
 }
